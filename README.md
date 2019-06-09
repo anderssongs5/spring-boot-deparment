@@ -1,6 +1,6 @@
 # spring-boot-deparment
 
-Department microservice, consuming web services through API Gateway using OpenFeign, registring in Service Registry and getting its configuration through Config Server.
+Department microservice, consuming web services through API Gateway using OpenFeign, registring in Service Registry (Eureka) and getting its configuration through Config Server (Spring Cloud - Config Client).
 
 Related projects:
 
