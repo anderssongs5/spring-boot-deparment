@@ -15,7 +15,7 @@ import lombok.ToString;
 @EqualsAndHashCode
 public class Employee {
 
-	private Long id;
+	private String id;
 	private String name;
 	private int age;
 	private String position;
