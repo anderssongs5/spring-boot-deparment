@@ -12,5 +12,5 @@ import co.edu.udea.diploma.microservicios.department.model.Employee;
 public interface EmployeeClient2 {
 
 	@GetMapping("/employees/department/{departmentId}")
-	List<Employee> findByDepartment(@PathVariable("departmentId") Long departmentId);
+	List<Employee> findByDepartment(@PathVariable("departmentId") String departmentId);
 }
